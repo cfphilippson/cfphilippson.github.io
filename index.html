@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Carlos Quintas | SIEM Tech Leader</title>
+<title>Carlos Quintas | SOC, CSIRT &amp; SecOps Tech Leader</title>
 <meta name="description" content="Carlos Quintas — SIEM Tech Leader em SOC/CSIRT. Engenharia de detecção, resposta a incidentes e Elastic SIEM.">
 <meta property="og:title" content="Carlos Quintas | SOC | CSIRT | SIEM Tech Leader">
 <meta property="og:description" content="Engenharia de detecção, resposta a incidentes e Elastic SIEM em ambiente enterprise.">
@@ -105,7 +105,7 @@ h2{font-size:clamp(28px,4vw,38px);letter-spacing:-.01em;margin-bottom:28px}
 
 .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px}
 .stat{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:24px}
-.stat b{display:block;font-family:var(--mono);font-size:38px;color:var(--accent);line-height:1}
+.stat b{display:block;font-family:var(--mono);font-size:clamp(28px,4vw,38px);color:var(--accent);line-height:1}
 .stat span{display:block;margin-top:10px;color:var(--muted);font-size:14.5px}
 
 .timeline{position:relative;padding-left:28px}
@@ -117,6 +117,17 @@ h2{font-size:clamp(28px,4vw,38px);letter-spacing:-.01em;margin-bottom:28px}
 .tl .org{color:var(--accent2);font-weight:500}
 .tl ul{margin:12px 0 0 18px;color:var(--muted);font-size:15px}
 .tl li{margin-bottom:6px}
+.tl .meta{color:var(--muted);font-weight:400;font-size:14px}
+.tl ul strong{color:var(--fg);font-weight:500}
+.subs{margin-top:12px;border-left:1px dashed var(--line);padding-left:16px}
+.sub{padding:7px 0}
+.sub-t{font-size:15px;color:var(--fg)}
+.sub-w{font-family:var(--mono);font-size:12px;color:var(--muted)}
+.tl.small{margin-bottom:18px}.tl.small h3{font-size:16px}
+details.early{margin-top:6px}
+details.early summary{cursor:pointer;font-family:var(--mono);font-size:13px;color:var(--accent);margin:0 0 18px -28px;padding-left:28px;list-style:none}
+details.early summary::before{content:"+ "}details.early[open] summary::before{content:"− "}
+
 
 .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
 .gallery figure{border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);aspect-ratio:4/3;background:var(--card);position:relative}
@@ -166,7 +177,7 @@ footer{padding:32px 0 48px;color:var(--muted);font-family:var(--mono);font-size:
     <div>
       <div class="tag"><span data-pt>SOC · CSIRT · Engenharia de Detecção</span><span data-en>SOC · CSIRT · Detection Engineering</span></div>
       <h1>Carlos <span>Quintas</span></h1>
-      <div class="role">SOC | CSIRT | SIEM Tech Leader</div>
+      <div class="role">SOC, CSIRT &amp; SecOps Tech Leader · SIEM &amp; Detection Engineering</div>
       <p class="lead" data-pt>Lidero a estratégia de SIEM e engenharia de detecção de um SOC/CSIRT enterprise — transformando telemetria de dezenas de fontes em detecções acionáveis, resposta rápida e métricas que a liderança entende.</p>
       <p class="lead" data-en>I lead SIEM strategy and detection engineering for an enterprise SOC/CSIRT — turning telemetry from dozens of sources into actionable detections, fast response and metrics leadership actually understands.</p>
       <div class="cta">
@@ -247,10 +258,10 @@ footer{padding:32px 0 48px;color:var(--muted);font-family:var(--mono);font-size:
     <div class="eyebrow">// <span data-pt>em números</span><span data-en>by the numbers</span></div>
     <h2 data-pt>Destaques recentes</h2><h2 data-en>Recent highlights</h2>
     <div class="stats">
-      <div class="stat"><b>157</b><span data-pt>regras de detecção revisadas e pontuadas por qualidade</span><span data-en>detection rules reviewed and quality-scored</span></div>
-      <div class="stat"><b>21+</b><span data-pt>casos de uso de firewall com ES|QL e mapeamento MITRE</span><span data-en>firewall use cases with ES|QL and MITRE mapping</span></div>
-      <div class="stat"><b>10+</b><span data-pt>plataformas de segurança integradas ao SIEM</span><span data-en>security platforms integrated into the SIEM</span></div>
-      <div class="stat"><b>KB</b><span data-pt>padrão oficial de base de conhecimento do CSIRT criado</span><span data-en>official CSIRT knowledge-base standard created</span></div>
+      <div class="stat"><b>16+</b><span data-pt>anos em SOC, CSIRT e segurança defensiva</span><span data-en>years in SOC, CSIRT and defensive security</span></div>
+      <div class="stat"><b>15+</b><span data-pt>fontes integradas ao SIEM corporativo</span><span data-en>sources integrated into the corporate SIEM</span></div>
+      <div class="stat"><b>−75%</b><span data-pt>falsos positivos após reengenharia das detecções</span><span data-en>false positives after detection re-engineering</span></div>
+      <div class="stat"><b>~15min</b><span data-pt>MTTR em incidentes alta/média (antes 2h)</span><span data-en>MTTR for high/medium incidents (down from 2h)</span></div>
     </div>
   </div>
 </section>
@@ -261,25 +272,88 @@ footer{padding:32px 0 48px;color:var(--muted);font-family:var(--mono);font-size:
     <h2 data-pt>Histórico profissional</h2><h2 data-en>Professional history</h2>
     <div class="timeline">
       <div class="tl">
-        <div class="when"><span data-pt>Atual</span><span data-en>Present</span></div>
-        <h3>SIEM Tech Leader — SOC/CSIRT</h3>
-        <div class="org">Suzano S.A.</div>
+        <div class="when"><span data-pt>out/2023 — atual</span><span data-en>Oct 2023 — present</span></div>
+        <h3>SOC, CSIRT &amp; SecOps Tech Leader | SIEM &amp; Detection Engineering</h3>
+        <div class="org">Suzano S.A. <span class="meta">· <span data-pt>Brasil · Híbrido</span><span data-en>Brazil · Hybrid</span></span></div>
         <ul data-pt>
-          <li>Arquitetura e operação do Elastic SIEM integrado a firewall, XDR, NDR, NAC, M365/Entra ID e ITSM.</li>
-          <li>Ciclo de engenharia de detecção com casos de uso documentados e mapeados em MITRE ATT&amp;CK.</li>
-          <li>Resposta a incidentes e coordenação técnica com o provedor de SOC parceiro.</li>
-          <li>Criação do padrão de documentação do CSIRT (KB, runbooks e playbooks).</li>
-          <li>Dashboards de KPIs do SOC e relatórios executivos.</li>
+          <li><strong>Owner técnico do SIEM corporativo (Elastic Stack):</strong> arquitetura, ingestão via Fleet/Logstash e integração de 15+ fontes — Palo Alto, Cortex XDR, Trend Micro Vision One, FortiNDR, Microsoft 365/Entra ID, Cisco ISE e integrações customizadas.</li>
+          <li><strong>Engenharia de detecção:</strong> casos de uso em produção (ES|QL, EQL, KQL e Machine Learning) mapeados em MITRE ATT&amp;CK, com <strong>redução de 75% em falsos positivos</strong>.</li>
+          <li><strong>Liderança técnica do CSIRT:</strong> resposta a incidentes, playbooks, runbooks e base de conhecimento; <strong>MTTR reduzido de 2h para ~15 min</strong> em incidentes de severidade alta e média.</li>
+          <li><strong>Automação &amp; orquestração:</strong> integração SIEM ↔ ServiceNow, BIOCs e políticas de prevenção no Cortex XDR, automação de phishing reportado no Vision One e agentes de IA integrados ao SIEM.</li>
+          <li>Gestão do parque de firewalls Palo Alto da companhia.</li>
+          <li><strong>Governança:</strong> KPIs executivos e dashboards em Power BI, CAPEX/OPEX, contratos e parceria com MSSP, auditorias e exercícios de tabletop.</li>
+          <li><strong>Liderança:</strong> backup da coordenação, mentoria e capacitação técnica do time.</li>
         </ul>
         <ul data-en>
-          <li>Architecture and operation of Elastic SIEM integrated with firewall, XDR, NDR, NAC, M365/Entra ID and ITSM.</li>
-          <li>Detection engineering lifecycle with documented, MITRE ATT&amp;CK-mapped use cases.</li>
-          <li>Incident response and technical coordination with the partner SOC provider.</li>
-          <li>Created the CSIRT documentation standard (KB, runbooks and playbooks).</li>
-          <li>SOC KPI dashboards and executive reporting.</li>
+          <li><strong>Technical owner of the corporate SIEM (Elastic Stack):</strong> architecture, ingestion via Fleet/Logstash and integration of 15+ sources — Palo Alto, Cortex XDR, Trend Micro Vision One, FortiNDR, Microsoft 365/Entra ID, Cisco ISE and custom-built integrations.</li>
+          <li><strong>Detection engineering:</strong> production use cases (ES|QL, EQL, KQL and Machine Learning) mapped to MITRE ATT&amp;CK, <strong>reducing false positives by 75%</strong>.</li>
+          <li><strong>CSIRT technical lead:</strong> incident response, playbooks, runbooks and knowledge base; <strong>reduced MTTR from 2h to ~15 min</strong> for high and medium severity incidents.</li>
+          <li><strong>Automation &amp; orchestration:</strong> SIEM ↔ ServiceNow integration, Cortex XDR BIOCs and prevention policies, Vision One phishing-report automation and AI agents integrated with the SIEM.</li>
+          <li>Management of the company's Palo Alto firewall estate.</li>
+          <li><strong>Governance:</strong> executive KPIs and Power BI dashboards, CAPEX/OPEX, contracts and MSSP partnership, audits and tabletop exercises.</li>
+          <li><strong>Leadership:</strong> backup for the coordinator, mentoring and technical training for the team.</li>
         </ul>
       </div>
-      <!-- ADICIONE AQUI AS EXPERIÊNCIAS ANTERIORES copiando o bloco <div class="tl">…</div> acima -->
+      <div class="tl">
+        <div class="when"><span data-pt>ago/2021 — ago/2023</span><span data-en>Aug 2021 — Aug 2023</span></div>
+        <h3>Global B2B Cyber Security — Manager, Coordinator &amp; Team Leader</h3>
+        <div class="org">AB InBev / BEES <span class="meta">· <span data-pt>Global · 2 anos 1 mês</span><span data-en>Global · 2 yrs 1 mo</span></span></div>
+        <div class="subs">
+          <div class="sub"><div class="sub-t">Global B2B Cyber Security Manager | SOC &amp; CSIRT</div><div class="sub-w"><span data-pt>jun/2023 — ago/2023 · Remoto</span><span data-en>Jun 2023 — Aug 2023 · Remote</span></div></div>
+          <div class="sub"><div class="sub-t">Global B2B Cyber Security Manager — Blue Team | Cloud Security | Incident Response | IAM</div><div class="sub-w"><span data-pt>mar/2023 — jun/2023</span><span data-en>Mar 2023 — Jun 2023</span></div></div>
+          <div class="sub"><div class="sub-t">Global B2B Cyber Security Coordinator — Blue Team | Cloud Security | Incident Response</div><div class="sub-w"><span data-pt>set/2022 — mar/2023</span><span data-en>Sep 2022 — Mar 2023</span></div></div>
+          <div class="sub"><div class="sub-t">BEES | Cyber Security — Blue Team, Incident Response and Cloud Security Coordinator</div><div class="sub-w"><span data-pt>jun/2022 — mar/2023</span><span data-en>Jun 2022 — Mar 2023</span></div></div>
+          <div class="sub"><div class="sub-t">BEES | Cyber Security — Team Leader</div><div class="sub-w"><span data-pt>jan/2022 — jun/2022</span><span data-en>Jan 2022 — Jun 2022</span></div></div>
+          <div class="sub"><div class="sub-t">BEES | Cyber Security Engineer</div><div class="sub-w"><span data-pt>ago/2021 — jan/2022</span><span data-en>Aug 2021 — Jan 2022</span></div></div>
+        </div>
+      </div>
+      <div class="tl">
+        <div class="when"><span data-pt>mar/2021 — ago/2021</span><span data-en>Mar 2021 — Aug 2021</span></div>
+        <h3>Cyber Security Engineer</h3>
+        <div class="org">C&amp;A Brasil <span class="meta">· <span data-pt>Barueri, SP · Remoto</span><span data-en>Barueri, SP · Remote</span></span></div>
+      </div>
+      <div class="tl">
+        <div class="when"><span data-pt>dez/2020 — mar/2021</span><span data-en>Dec 2020 — Mar 2021</span></div>
+        <h3>Information Security Engineer</h3>
+        <div class="org">Ticket <span class="meta">· <span data-pt>São Paulo · Remoto</span><span data-en>São Paulo · Remote</span></span></div>
+      </div>
+      <div class="tl">
+        <div class="when"><span data-pt>ago/2019 — dez/2020</span><span data-en>Aug 2019 — Dec 2020</span></div>
+        <h3>Cyber Security Analyst</h3>
+        <div class="org">Banco Original <span class="meta">· <span data-pt>São Paulo · Presencial</span><span data-en>São Paulo · On-site</span></span></div>
+      </div>
+      <div class="tl">
+        <div class="when"><span data-pt>ago/2010 — jul/2019</span><span data-en>Aug 2010 — Jul 2019</span></div>
+        <h3>SOC, CSIRT &amp; Network Security</h3>
+        <div class="org">TIVIT <span class="meta">· <span data-pt>São Paulo · 9 anos</span><span data-en>São Paulo · 9 yrs</span></span></div>
+        <div class="subs">
+          <div class="sub"><div class="sub-t">Hybrid Cloud Operations — Network &amp; Security Specialist</div><div class="sub-w"><span data-pt>jan/2017 — jul/2019</span><span data-en>Jan 2017 — Jul 2019</span></div></div>
+          <div class="sub"><div class="sub-t">SOC &amp; CSIRT Analyst</div><div class="sub-w"><span data-pt>ago/2010 — jan/2017</span><span data-en>Aug 2010 — Jan 2017</span></div></div>
+        </div>
+      </div>
+      <details class="early">
+        <summary><span data-pt>Início de carreira em TI (2000 — 2009)</span><span data-en>Early IT career (2000 — 2009)</span></summary>
+      <div class="tl small">
+        <div class="when"><span data-pt>out/2007 — ago/2009</span><span data-en>Oct 2007 — Aug 2009</span></div>
+        <h3>Information Technology Consultant</h3>
+        <div class="org">Scala IT Solutions <span class="meta">· <span data-pt>Brasil</span><span data-en>Brazil</span></span></div>
+      </div>
+      <div class="tl small">
+        <div class="when"><span data-pt>set/2005 — set/2007</span><span data-en>Sep 2005 — Sep 2007</span></div>
+        <h3>IT Technical Support</h3>
+        <div class="org">UPS Supply Chain Solutions <span class="meta">· <span data-pt>Estágio</span><span data-en>Internship</span></span></div>
+      </div>
+      <div class="tl small">
+        <div class="when"><span data-pt>mar/2004 — mar/2005</span><span data-en>Mar 2004 — Mar 2005</span></div>
+        <h3>Information Technology Intern</h3>
+        <div class="org">Prefeitura de São Paulo <span class="meta">· <span data-pt>Estágio</span><span data-en>Internship</span></span></div>
+      </div>
+      <div class="tl small">
+        <div class="when"><span data-pt>abr/2000 — jun/2000</span><span data-en>Apr 2000 — Jun 2000</span></div>
+        <h3>Professor</h3>
+        <div class="org">Micro Online Informática <span class="meta">· <span data-pt>Meio período</span><span data-en>Part-time</span></span></div>
+      </div>
+      </details>
     </div>
   </div>
 </section>
